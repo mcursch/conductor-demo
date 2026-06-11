@@ -9,6 +9,11 @@ from greeter import hello
 hello("World")   # -> "Hello, World!"
 ```
 
+```python
+from greeter import farewell
+farewell("World")   # -> "Goodbye, World!"
+```
+
 ## Tests
 
 ```bash
