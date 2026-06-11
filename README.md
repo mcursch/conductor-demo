@@ -11,6 +11,11 @@ from greeter import farewell
 farewell("World")  # -> "Goodbye, World!"
 ```
 
+```python
+from greeter import farewell
+farewell("World")   # -> "Goodbye, World!"
+```
+
 ## Tests
 
 ```bash
