@@ -7,5 +7,5 @@ def hello(name: str) -> str:
 
 
 def farewell(name: str) -> str:
-    """Return a friendly farewell."""
+    """Return a farewell greeting."""
     return f"Goodbye, {name}!"
