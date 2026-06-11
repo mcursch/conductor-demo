@@ -1,6 +1,6 @@
 import unittest
 
-from greeter import farewell, hello
+from greeter import hello, farewell
 
 
 class TestGreeter(unittest.TestCase):
@@ -8,6 +8,14 @@ class TestGreeter(unittest.TestCase):
         self.assertEqual(hello("World"), "Hello, World!")
 
     def test_farewell(self):
+        self.assertEqual(farewell("World"), "Goodbye, World!")
+
+
+class TestFarewell(unittest.TestCase):
+    def test_farewell_alice(self):
+        self.assertEqual(farewell("Alice"), "Goodbye, Alice!")
+
+    def test_farewell_world(self):
         self.assertEqual(farewell("World"), "Goodbye, World!")
 
 
